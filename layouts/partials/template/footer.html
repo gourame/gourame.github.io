@@ -1,0 +1,30 @@
+<footer class="wrapper style1 align-center">
+    <div class="inner">
+        <ul class="icons">
+            {{ with .Site.Params.social.linkedin }}
+            <li><a target="_blank" href="{{.}}" class="icon brands style2 fa-linkedin"><span
+                    class="label">LinkedIn</span></a></li>
+            {{end}}
+            {{ with .Site.Params.social.github }}
+            <li><a target="_blank" href="{{.}}" class="icon brands style2 fa-github"><span
+                    class="label">Github</span></a></li>
+            {{end}}
+            {{ with .Site.Params.social.email }}
+            <li><a target="_blank" href="mailto:{{.}}" class="fav icon style2 fa-envelope"><span
+                    class="label">Email</span></a></li>
+            {{end}}
+            {{ with .Site.Params.social.twitter }}
+            <li><a target="_blank" href="{{.}}" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>
+            </li>
+            {{end}}
+        </ul>
+        <p>Gourame Limited is a limited company registered in the United Kingdom with n&ordm; 07265646 and VAT n&ordm; 103307077
+            </p><p>
+        Gourame &copy; 2010-2021<span
+            class="footerspacer icon fad fa-diamond"></span>
+            Website design by <a target="_blank"
+                           href="https://github.com/caressofsteel/">CaressOfSteel</a><span
+                    class="footerspacer icon fad fa-diamond"></span>
+            Image by <a target="_blank" href="https://unsplash.com/@kyawthutun">Kyaw Tun</a> via <a target="_blank" href="https://unsplash.com">Unsplash</a></p>
+    </div>
+</footer>

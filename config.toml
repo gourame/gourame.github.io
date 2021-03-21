@@ -1,32 +1,14 @@
-## -----------------------------------------------
-## Basic Configuration
-## -----------------------------------------------
-
-title = "Hugo Story"
+title = "Gourame"
 theme = "hugo-story"
 
-
-## -----------------------------------------------
-## Hugo Built-in Features
-## -----------------------------------------------
-
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "your-google-analytics-id"
-
-
-## -----------------------------------------------
-## Site Parameters
-## -----------------------------------------------
-
 [Params]
-  description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
-  logo = "images/banner.jpg"
+  description = "Software development consultancy led by Ivan Sanchez"
+  logo = "images/kyaw-tun-nI3bUW1Xqik-unsplash.jpeg"
   favicon = true
 
 [Params.social]
-  github = "https://github.com/caressofsteel/"
-  twitter = "https://twitter.com/caressofsteel_"
-  email = "caressofsteel@protonmail.com"
-  instagram = "https://instagram.com"
-  linkedin = "https://linkedin.com"
-  telegram = "https://telegram.org"
+  github = "https://github.com/s4nchez"
+  twitter = "https://twitter.com/s4nchez"
+  email = "ivan@gourame.com"
+  linkedin = "https://www.linkedin.com/in/s4nchez/"
